@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<h1>Project 1 - Simple Charts Using SVG</h1>
+
+<p> Ambika Gupta 
+    <br /> CS 4460
+    <br /> 10/2/18
+</p>
+
+<br />
+
+<p>Part 1 - A Single Bar</p>
+    <svg width="400" height="400">
+        <rect x="175" y="150" width="50" height="250" style="fill:rgb(255,0,0)" />
+    </svg>
+
+<br />
+<br />
+
+<p>Part 2 - A Single Chart</p>
+    <svg width="400" height="400">
+        <rect x="0" y ="250" width="50" height="150"
+            style="fill:green;stroke:black;stroke-width:1;" />
+        <rect x="50" y ="175" width="50" height="225"
+            style="fill:green;stroke:black;stroke-width:1;" />
+        <rect x="100" y ="175" width="50" height="225"
+            style="fill:green;stroke:black;stroke-width:1;" />
+        <rect x="150" y ="100" width="50" height="300"
+            style="fill:green;stroke:black;stroke-width:1;" />
+        <rect x="200" y ="100" width="50" height="300"
+            style="fill:green;stroke:black;stroke-width:1;" />
+        <rect x="250" y ="175" width="50" height="225"
+            style="fill:green;stroke:black;stroke-width:1;" />
+        <rect x="300" y ="175" width="50" height="225"
+            style="fill:green;stroke:black;stroke-width:1;" />
+        <rect x="350" y ="250" width="50" height="150"
+            style="fill:green;stroke:black;stroke-width:1;" />
+    </svg>
+
+<br />
+<br />
+
+<p>Part 3 - A Line Chart</p>
+    <svg width="400" height="400">
+        <line x1="25" y1="250" x2="75" y2="175" style="stroke:rgb(0,0,0);stroke-width:4" />
+        <line x1="75" y1="175" x2="125" y2="175" style="stroke:rgb(0,0,0);stroke-width:4" />
+        <line x1="125" y1="175" x2="175" y2="100" style="stroke:rgb(0,0,0);stroke-width:4" />
+        <line x1="175" y1="100" x2="225" y2="100" style="stroke:rgb(0,0,0);stroke-width:4" />
+        <line x1="225" y1="100" x2="275" y2="175" style="stroke:rgb(0,0,0);stroke-width:4" />
+        <line x1="275" y1="175" x2="325" y2="175" style="stroke:rgb(0,0,0);stroke-width:4" />
+        <line x1="325" y1="175" x2="375" y2="250" style="stroke:rgb(0,0,0);stroke-width:4" />
+    </svg>
+
+<br />
+<br />
+
+<p>Part 4 - A Pie Chart<p/>
+    <svg width="400" height="400">
+        <circle cx="200" cy="200" r="150" stroke="black" stroke-width="2" fill="yellow" />
+        <path d="M200 50
+           A 150 150, 0, 0, 1, 350 200
+           L 200 200 Z" fill="green" stroke="black" stroke-width="2"/>
+    </svg>
+
+</body>
+</html>

@@ -1,1 +1,1 @@
-"# 4460" 
+This is my repository for CS 4460 - Introduction to Information Visualization for Fall 2018.
